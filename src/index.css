@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+/* Colores personalizados para coincidir con la web */
+.custom-orange {
+  color: #e67e22 !important;
+}
+
+.custom-orange-bg {
+  background-color: #e67e22 !important;
+}
+
+.custom-orange-border {
+  border-color: #e67e22 !important;
+}
+
+.custom-orange-ring {
+  --tw-ring-color: rgba(230, 126, 34, 0.3) !important;
+}
+
+.custom-orange-light-bg {
+  background-color: rgba(230, 126, 34, 0.1) !important;
+}
+
+.custom-orange-dark {
+  color: #d35400 !important;
+}
+
+/* Sobrescribir colores de Tailwind */
+.border-pink-500 {
+  border-color: #e67e22 !important;
+}
+
+.bg-pink-500 {
+  background-color: #e67e22 !important;
+}
+
+.text-pink-700 {
+  color: #d35400 !important;
+}
+
+.ring-pink-300 {
+  --tw-ring-color: rgba(230, 126, 34, 0.3) !important;
+}
+
+.bg-pink-100 {
+  background-color: rgba(230, 126, 34, 0.1) !important;
+}
+
+.text-pink-600 {
+  color: #e67e22 !important;
+}
